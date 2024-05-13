@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+
+        android:background="@drawable/view_items_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/dddd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="#00838F"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:justificationMode="none"
+                    android:layout_marginBottom="7dp" />
+
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5sp"
+                    android:layout_below="@id/tvTitle"
+                    android:id="@+id/tvSubTitle"
+                    android:visibility="visible"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="#00838F"
+                    android:layout_marginBottom="7dp"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/addText"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_margin="5dp"
+                android:layout_marginTop="30dp"
+                android:background="#00838F"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+
+                <LinearLayout
+
+                    android:weightSum="3"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+
+                        android:id="@+id/RelFavorite"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <RelativeLayout
+                            android:id="@+id/love"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <ImageView
+                                android:visibility="visible"
+                                android:id="@+id/favorite"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/baseline_favorite_border_24"
+                                />
+
+
+                            <ImageView
+                                android:id="@+id/loveFavorite"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/baseline_favorite_24"
+                                android:visibility="gone"
+                                />
+
+
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:id="@+id/favoriteTextView"
+                            android:gravity="center"
+                            android:layout_below="@id/love"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Favorite"
+                            android:textColor="@color/white"
+                            />
+
+
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+
+                        android:id="@+id/layShare"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/baseline_share_24"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:text="Share"/>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:id="@+id/LayCopy"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/baseline_content_copy_24"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:text="Copy"/>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
