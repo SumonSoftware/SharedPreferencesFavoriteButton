@@ -25,8 +25,11 @@
 > 2. Add Gson Library in your project build.gradle (Module :app). <a href="https://github.com/google/gson">Visit the documentation page.</a>
 
 
+ 1. Home tvDisplay
 ![home](https://github.com/SumonSoftware/SharedPreferencesFavoriteButton/assets/168503949/0dbbcdfd-2374-4e88-be02-495a31e83933)
 
+
+ 1. Home tvDisplay
 ![fav](https://github.com/SumonSoftware/SharedPreferencesFavoriteButton/assets/168503949/3f368945-abe5-49e1-8f60-513cf8a82f1b)
 
 
